@@ -6,9 +6,6 @@
             </div>
         </header>
         <livewire:create-code />
-        <span class="text-white material-symbols-outlined">
-            search
-                </span>
      </section>
 
  </x-layouts.app>
