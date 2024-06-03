@@ -1,1 +1,1 @@
-<img {{$attributes}}>
+<img {{$attributes->merge(['classes'])}}>
