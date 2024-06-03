@@ -1,11 +1,9 @@
 <x-layouts.app>
-    <section class="px-6">
-        <header class="container mx-auto ">
-            <div class="flex w-full justify-center my-8">
-                <img src="/logo.svg"   alt="code breaker logo">
+    <section class="px-6 container mx-auto h-full flex flex-col">
+             <div class="flex w-full justify-center mt-12">
+                 <x-Logo src="/logo.svg" alt="code breaker logo" />
             </div>
-        </header>
-        <livewire:create-code />
+         <livewire:create-code />
      </section>
 
  </x-layouts.app>
