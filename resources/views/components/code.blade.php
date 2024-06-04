@@ -1,6 +1,6 @@
 @props(['message','letters'])
 
- <div class="flex gap-8 flex-wrap print:mt-auto">
+ <div class="flex gap-8 print:gap-4 flex-wrap print:mt-auto">
     @foreach(explode(' ', $message) as $word)
         <div class="word gap-x-1 flex justify-center">
             @foreach(str_split($word) as $character)
